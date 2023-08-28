@@ -1,8 +1,14 @@
 package enums;
 
 public enum Category {
-	BISCUIT("Buiscuit"),
-    BONBON("Bonbon");
+	ENTREE("Entrees"),
+	PlATS_PRINCIPAUX("Plats principaux"),
+	ACCOMPAGENEMENTS("Accompagnements"),
+	DESSERTS("Desserts"),
+	BOISSONS("Boissons"),
+	MENU_ENFANT("Menu pour enfants"),
+	PLATS_SPECIAUX("Plats spéciaux");
+	
 
     private String category;
 

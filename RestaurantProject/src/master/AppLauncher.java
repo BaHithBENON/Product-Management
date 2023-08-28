@@ -84,7 +84,7 @@ public class AppLauncher extends Application {
 	public void initRootLayout() {
 		try {
 			// Load root layout from fxml file.
-			authUI = (AnchorPane) FXMLLoader.load(getClass().getResource("../ui/AuthUI.fxml"));
+			authUI = (AnchorPane) FXMLLoader.load(getClass().getResource("/ui/AuthUI.fxml"));
 			// Show the scene containing the root layout.
 			Scene scene = new Scene(authUI);
 			primaryStage.setScene(scene);

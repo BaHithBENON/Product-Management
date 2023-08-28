@@ -33,7 +33,7 @@
                         <Font name="OCR A Extended" size="15.0" />
                      </font>
                   </Label>
-                  <Button fx:id="addOrder" defaultButton="true" layoutX="465.0" layoutY="30.0" mnemonicParsing="false" onAction="#goToEditOrder" style="-fx-background-color: blue; -fx-text-fill: white;" text="Ajouter">
+                  <Button fx:id="addOrder" defaultButton="true" layoutX="410.0" layoutY="30.0" mnemonicParsing="false" onAction="#goToEditOrder" prefHeight="37.0" prefWidth="139.0" style="-fx-background-color: blue; -fx-text-fill: white;" text="Ajouter">
                      <font>
                         <Font name="OCR A Extended" size="15.0" />
                      </font>
@@ -93,12 +93,12 @@
                         <TableColumn fx:id="productTotalColumn" prefWidth="75.0" text="Total" />
                     </columns>
                   </TableView>
-                  <Button defaultButton="true" layoutX="483.0" layoutY="671.0" mnemonicParsing="false" onAction="#goToEditPayment" style="-fx-background-color: teal; -fx-text-fill: white;" text="Passer au paiement">
+                  <Button defaultButton="true" layoutX="483.0" layoutY="660.0" mnemonicParsing="false" onAction="#goToEditPayment" prefHeight="37.0" prefWidth="184.0" style="-fx-background-color: teal; -fx-text-fill: white;" text="Passer au paiement">
                      <font>
                         <Font name="OCR A Extended" size="15.0" />
                      </font>
                   </Button>
-                  <Button defaultButton="true" layoutX="456.0" layoutY="79.0" mnemonicParsing="false" onAction="#deleteOrder" style="-fx-background-color: red; -fx-text-fill: white;" text="Supprimer la commande">
+                  <Button defaultButton="true" layoutX="456.0" layoutY="79.0" mnemonicParsing="false" onAction="#deleteOrder" prefHeight="37.0" prefWidth="211.0" style="-fx-background-color: red; -fx-text-fill: white;" text="Supprimer la commande">
                      <font>
                         <Font name="OCR A Extended" size="15.0" />
                      </font>

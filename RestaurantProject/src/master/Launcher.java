@@ -7,8 +7,7 @@ import java.util.List;
 
 import org.hibernate.Session;
 
-import com.ums.db.HibernateConnection;
-
+import db.HibernateConnection;
 import models.Order;
 import models.Payment;
 import models.Product;

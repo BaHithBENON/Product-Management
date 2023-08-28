@@ -7,8 +7,6 @@ import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.query.Query;
 
-import com.ums.UMSApplication;
-
 import db.HibernateConnection;
 import exceptions.DAOException;
 import interfaces.IDao;

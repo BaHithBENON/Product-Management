@@ -5,30 +5,21 @@ import java.util.List;
 
 import org.hibernate.Session;
 
-import com.ums.db.HibernateConnection;
+import db.HibernateConnection;
 
-import dao.AdministratorDaoImpl;
-import dao.ChefDaoImpl;
 import dao.OrderDaoImpl;
 import dao.PaymentDaoImpl;
 import dao.ProductDaoImpl;
-import dao.RestaurateurDaoImpl;
 import dao.UserDaoImpl;
 import exceptions.DAOException;
-import factories.AdministratorFactory;
-import factories.ChefFactory;
 import factories.ConcreteFactory;
 import factories.OrderFactory;
 import factories.PaymentFactory;
 import factories.ProductFactory;
-import factories.RestaurateurFactory;
 import factories.UserFactory;
-import models.Administrator;
-import models.Chef;
 import models.Order;
 import models.Payment;
 import models.Product;
-import models.Restaurateur;
 import models.User;
 
 public class BaseAccess {

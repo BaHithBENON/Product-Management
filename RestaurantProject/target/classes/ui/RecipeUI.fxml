@@ -17,7 +17,7 @@
                         <Font name="OCR A Extended" size="36.0" />
                      </font>
                   </Label>
-                  <Button layoutX="592.0" layoutY="33.0" mnemonicParsing="false" onAction="#quit" text="Quitter">
+                  <Button layoutX="538.0" layoutY="21.0" mnemonicParsing="false" onAction="#quit" prefHeight="38.0" prefWidth="138.0" text="Quitter">
                      <font>
                         <Font name="OCR A Extended" size="15.0" />
                      </font>

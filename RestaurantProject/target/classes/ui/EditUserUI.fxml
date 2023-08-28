@@ -34,7 +34,7 @@
                         <Font name="OCR A Extended" size="15.0" />
                      </font>
                   </Label>
-                  <Button defaultButton="true" layoutX="76.0" layoutY="691.0" mnemonicParsing="false" onAction="#validEdition" style="-fx-background-color: #EE82EE; -fx-text-fill: white;" text="Valider">
+                  <Button defaultButton="true" layoutX="76.0" layoutY="679.0" mnemonicParsing="false" onAction="#validEdition" prefHeight="38.0" prefWidth="165.0" style="-fx-background-color: #EE82EE; -fx-text-fill: white;" text="Valider">
                      <font>
                         <Font name="OCR A Extended" size="15.0" />
                      </font>
@@ -62,7 +62,7 @@
                         <Font name="OCR A Extended" size="15.0" />
                      </font>
                   </Label>
-                  <Button defaultButton="true" layoutX="507.0" layoutY="691.0" mnemonicParsing="false" onAction="#clearInputs" style="-fx-background-color: white; -fx-text-fill: black;" text="Effacer">
+                  <Button defaultButton="true" layoutX="436.0" layoutY="679.0" mnemonicParsing="false" onAction="#clearInputs" prefHeight="38.0" prefWidth="155.0" style="-fx-background-color: white; -fx-text-fill: black;" text="Effacer">
                      <font>
                         <Font name="OCR A Extended" size="15.0" />
                      </font>
@@ -76,7 +76,7 @@
             </AnchorPane>
             <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="698.0" prefWidth="501.0" style="-fx-background-color: #EE82EE;">
                <children>
-                  <Button defaultButton="true" layoutX="25.0" layoutY="28.0" mnemonicParsing="false" onAction="#closeUI" style="-fx-background-color: white; -fx-text-fill: black;" text="Quitter">
+                  <Button defaultButton="true" layoutX="16.0" layoutY="28.0" mnemonicParsing="false" onAction="#closeUI" prefHeight="38.0" prefWidth="101.0" style="-fx-background-color: white; -fx-text-fill: black;" text="Quitter">
                      <font>
                         <Font name="OCR A Extended" size="15.0" />
                      </font>

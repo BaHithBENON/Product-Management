@@ -99,6 +99,7 @@ public class EditProductUIController {
 			);
 			for(ProductImage i : productImages) {
 				i.setProduct(objUser);
+				objUser.addProductImage(i);
 			}
 			
 			objUser.setProductImages(productImages);
@@ -154,7 +155,6 @@ public class EditProductUIController {
 	
 	private void updateImages() {
 		// Chargez les images associées au produit sélectionné
-		
 		
 		if(product != null && !product.getProductImages().isEmpty()) {
 			productImages = product.getProductImages();

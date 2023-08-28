@@ -12,12 +12,12 @@
         <items>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" style="-fx-background-color: orange;">
                <children>
-                  <Button fx:id="quitButton" defaultButton="true" layoutX="23.0" layoutY="28.0" mnemonicParsing="false" onAction="#logout" style="-fx-background-color: white; -fx-text-fill: black;" text="Quitter">
+                  <Button fx:id="quitButton" defaultButton="true" layoutX="23.0" layoutY="28.0" mnemonicParsing="false" onAction="#logout" prefHeight="37.0" prefWidth="193.0" style="-fx-background-color: white; -fx-text-fill: black;" text="Quitter">
                      <font>
                         <Font name="OCR A Extended" size="15.0" />
                      </font>
                   </Button>
-                  <Button defaultButton="true" layoutX="14.0" layoutY="649.0" mnemonicParsing="false" onAction="#openProductDetailsUI" style="-fx-background-color: white; -fx-text-fill: black;" text="Details">
+                  <Button defaultButton="true" layoutX="14.0" layoutY="632.0" mnemonicParsing="false" onAction="#openProductDetailsUI" prefHeight="37.0" prefWidth="199.0" style="-fx-background-color: white; -fx-text-fill: black;" text="Details">
                      <font>
                         <Font name="OCR A Extended" size="15.0" />
                      </font>
@@ -27,12 +27,12 @@
                         <Font name="OCR A Extended" size="15.0" />
                      </font>
                   </Label>
-                  <Button defaultButton="true" layoutX="14.0" layoutY="700.0" mnemonicParsing="false" onAction="#openUpdateProductUI" style="-fx-background-color: white; -fx-text-fill: black;" text="Mettre à jour">
+                  <Button defaultButton="true" layoutX="14.0" layoutY="684.0" mnemonicParsing="false" onAction="#openUpdateProductUI" prefHeight="37.0" prefWidth="199.0" style="-fx-background-color: white; -fx-text-fill: black;" text="Mettre à jour">
                      <font>
                         <Font name="OCR A Extended" size="15.0" />
                      </font>
                   </Button>
-                  <Button defaultButton="true" layoutX="14.0" layoutY="745.0" mnemonicParsing="false" onAction="#deleteProduct" style="-fx-background-color: white; -fx-text-fill: black;" text="Supprimer">
+                  <Button defaultButton="true" layoutX="14.0" layoutY="734.0" mnemonicParsing="false" onAction="#deleteProduct" prefHeight="37.0" prefWidth="199.0" style="-fx-background-color: white; -fx-text-fill: black;" text="Supprimer">
                      <font>
                         <Font name="OCR A Extended" size="15.0" />
                      </font>
@@ -51,17 +51,17 @@
                         <Font name="OCR A Extended" size="36.0" />
                      </font>
                   </Label>
-                  <Button defaultButton="true" layoutX="24.0" layoutY="40.0" mnemonicParsing="false" onAction="#openAddProductUI" style="-fx-background-color: white; -fx-text-fill: black;" text="Ajouter un produit">
+                  <Button defaultButton="true" layoutX="24.0" layoutY="40.0" mnemonicParsing="false" onAction="#openAddProductUI" prefHeight="37.0" prefWidth="193.0" style="-fx-background-color: orange; -fx-text-fill: white;" text="Ajouter un produit">
                      <font>
                         <Font name="OCR A Extended" size="15.0" />
                      </font>
                   </Button>
-                  <Button defaultButton="true" layoutX="21.0" layoutY="85.0" mnemonicParsing="false" onAction="#initialize" style="-fx-background-color: white; -fx-text-fill: black;" text="Rafraîchir la liste">
+                  <Button defaultButton="true" layoutX="21.0" layoutY="85.0" mnemonicParsing="false" onAction="#initialize" prefHeight="37.0" prefWidth="193.0" style="-fx-background-color: orange; -fx-text-fill: white;" text="Rafraîchir la liste">
                      <font>
                         <Font name="OCR A Extended" size="15.0" />
                      </font>
                   </Button>
-                  <Label layoutX="244.0" layoutY="90.0" text="La liste des produits de la plateforme.">
+                  <Label layoutX="244.0" layoutY="103.0" text="La liste des produits de la plateforme.">
                      <font>
                         <Font name="OCR A Extended" size="15.0" />
                      </font>

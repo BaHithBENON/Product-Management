@@ -22,12 +22,12 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.stage.Stage;
 import master.AppLauncher;
 import models.Order;
-import models.Payment;
 import models.Product;
 import models.ProductDetails;
 import models.User;
 
 public class OrdersUIController {
+	
 	@FXML
 	private TextField searchTextField;
 	@FXML
@@ -52,6 +52,7 @@ public class OrdersUIController {
 	private TableColumn<ProductDetails, Double> productUnitPriceColumn;
 	@FXML
 	private TableColumn<ProductDetails, Double> productTotalColumn;
+	
 	
 	
 	@FXML

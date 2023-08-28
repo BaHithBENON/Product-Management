@@ -80,12 +80,12 @@
             </AnchorPane>
             <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" style="-fx-background-color: orange;">
                <children>
-                  <Button fx:id="updateButton" defaultButton="true" layoutX="862.0" layoutY="58.0" mnemonicParsing="false" onAction="#openUpdateProductUI" style="-fx-background-color: white; -fx-text-fill: black;" text="Mettre à jour">
+                  <Button fx:id="updateButton" defaultButton="true" layoutX="796.0" layoutY="40.0" mnemonicParsing="false" onAction="#openUpdateProductUI" prefHeight="44.0" prefWidth="204.0" style="-fx-background-color: white; -fx-text-fill: black;" text="Mettre à jour">
                      <font>
                         <Font name="OCR A Extended" size="15.0" />
                      </font>
                   </Button>
-                  <Button fx:id="deleteButton" defaultButton="true" layoutX="1045.0" layoutY="58.0" mnemonicParsing="false" onAction="#deleteProduct" style="-fx-background-color: white; -fx-text-fill: black;" text="Supprimer">
+                  <Button fx:id="deleteButton" defaultButton="true" layoutX="1016.0" layoutY="40.0" mnemonicParsing="false" onAction="#deleteProduct" prefHeight="44.0" prefWidth="131.0" style="-fx-background-color: white; -fx-text-fill: black;" text="Supprimer">
                      <font>
                         <Font name="OCR A Extended" size="15.0" />
                      </font>

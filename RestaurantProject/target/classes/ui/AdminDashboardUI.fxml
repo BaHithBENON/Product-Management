@@ -27,7 +27,7 @@
                         <Font name="OCR A Extended" size="36.0" />
                      </font>
                   </Label>
-                  <Button defaultButton="true" layoutX="847.0" layoutY="30.0" mnemonicParsing="false" onAction="#openAddUserUI" style="-fx-background-color: white; -fx-text-fill: black;" text="Ajouter">
+                  <Button defaultButton="true" layoutX="820.0" layoutY="30.0" mnemonicParsing="false" onAction="#openAddUserUI" prefHeight="35.0" prefWidth="111.0" style="-fx-background-color: EE82EE; -fx-text-fill: white;" text="Ajouter">
                      <font>
                         <Font name="OCR A Extended" size="15.0" />
                      </font>
@@ -40,7 +40,7 @@
                         <TableColumn fx:id="typeColumn" prefWidth="75.0" text="Type" />
                     </columns>
                   </TableView>
-                  <Button defaultButton="true" layoutX="741.0" layoutY="108.0" mnemonicParsing="false" onAction="#initialize" style="-fx-background-color: white; -fx-text-fill: black;" text="Rafraîchir la liste">
+                  <Button defaultButton="true" layoutX="741.0" layoutY="99.0" mnemonicParsing="false" onAction="#initialize" prefHeight="35.0" prefWidth="193.0" style="-fx-background-color: EE82EE; -fx-text-fill: white;" text="Rafraîchir la liste">
                      <font>
                         <Font name="OCR A Extended" size="15.0" />
                      </font>
@@ -49,17 +49,17 @@
             </AnchorPane>
             <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="698.0" prefWidth="501.0" style="-fx-background-color: #EE82EE;">
                <children>
-                  <Button fx:id="quitButton" defaultButton="true" layoutX="110.0" layoutY="26.0" mnemonicParsing="false" onAction="#logout" style="-fx-background-color: white; -fx-text-fill: black;" text="Quitter">
+                  <Button fx:id="quitButton" defaultButton="true" layoutX="12.0" layoutY="26.0" mnemonicParsing="false" onAction="#logout" prefHeight="35.0" prefWidth="193.0" style="-fx-background-color: white; -fx-text-fill: black;" text="Quitter">
                      <font>
                         <Font name="OCR A Extended" size="15.0" />
                      </font>
                   </Button>
-                  <Button defaultButton="true" layoutX="101.0" layoutY="728.0" mnemonicParsing="false" onAction="#deleteUser" style="-fx-background-color: white; -fx-text-fill: black;" text="Supprimer">
+                  <Button defaultButton="true" layoutX="10.0" layoutY="719.0" mnemonicParsing="false" onAction="#deleteUser" prefHeight="35.0" prefWidth="193.0" style="-fx-background-color: white; -fx-text-fill: black;" text="Supprimer">
                      <font>
                         <Font name="OCR A Extended" size="15.0" />
                      </font>
                   </Button>
-                  <Button defaultButton="true" layoutX="65.0" layoutY="681.0" mnemonicParsing="false" onAction="#openUpdateUserUI" style="-fx-background-color: white; -fx-text-fill: black;" text="Mettre à jour">
+                  <Button defaultButton="true" layoutX="10.0" layoutY="672.0" mnemonicParsing="false" onAction="#openUpdateUserUI" prefHeight="35.0" prefWidth="193.0" style="-fx-background-color: white; -fx-text-fill: black;" text="Mettre à jour">
                      <font>
                         <Font name="OCR A Extended" size="15.0" />
                      </font>
@@ -69,7 +69,7 @@
                         <Font name="OCR A Extended" size="15.0" />
                      </font>
                   </Label>
-                  <Button defaultButton="true" layoutX="119.0" layoutY="632.0" mnemonicParsing="false" onAction="#openUserDetailsUI" style="-fx-background-color: white; -fx-text-fill: black;" text="Details">
+                  <Button defaultButton="true" layoutX="10.0" layoutY="623.0" mnemonicParsing="false" onAction="#openUserDetailsUI" prefHeight="35.0" prefWidth="193.0" style="-fx-background-color: white; -fx-text-fill: black;" text="Details">
                      <font>
                         <Font name="OCR A Extended" size="15.0" />
                      </font>

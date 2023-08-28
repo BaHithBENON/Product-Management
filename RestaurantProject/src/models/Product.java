@@ -44,6 +44,10 @@ public class Product implements Serializable {
 	@OneToMany(mappedBy = "product")
     private List<ProductDetails> productDetailsItems = new ArrayList<>();
 	
+	@OneToMany(mappedBy = "product", cascade = CascadeType.ALL)
+    private List<ProductImage> productImages = new ArrayList<>();
+	
+	
 	/*
 	public Order getOrder() {
 		return order;
@@ -54,9 +58,6 @@ public class Product implements Serializable {
 		this.order = order;
 	}
 	*/
-	
-	@OneToMany(mappedBy = "product", cascade = CascadeType.ALL)
-    private List<ProductImage> productImages = new ArrayList<>();
 	
 	public void addProductImage(ProductImage productImage) {
         productImages.add(productImage);
